@@ -33,7 +33,7 @@ iface = gr.Interface(
     inputs=gr.Image(), 
     outputs="text",
     title="PIXCRIBE",
-    description="This is a simple web app for generating captions for images using a trained model."
+    description="Generate Image Captions using Salesforce/blip-image-captioning-base from Huggingface."
 )
 
 iface.launch()

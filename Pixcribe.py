@@ -32,7 +32,7 @@ iface = gr.Interface(
     fn=caption_image, 
     inputs=gr.Image(), 
     outputs="text",
-    title="Image Captioning",
+    title="PIXCRIBE",
     description="This is a simple web app for generating captions for images using a trained model."
 )
 
